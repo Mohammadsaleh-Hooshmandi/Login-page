@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    font-family: sans-serif;
+    position: absolute;
+    width: 50rem;
+    height: 55rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ededed;
+    box-shadow: .6rem .6rem 1rem #aaa;
+    border-radius: 2rem;
+    transition: box-shadow .6s;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 9rem;
+    text-transform: capitalize;
+}
+
+.wrapper:hover {
+    box-shadow: .8rem .8rem 5rem #aaa;
+}
+
+.wrapper h1 {
+    font-size: 5.4rem;
+    font-weight: 300;
+    text-align: center;
+    color: #4c4b4b;
+}
+
+.wrapper h6 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #4c4b4b;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+
+.wrapper input {
+    height: 4.5rem;
+    border-radius: 1.8rem;
+    border: .2rem solid #c5c3c3;
+    padding-left: 1rem;
+    color: #c5c3c3;
+}
+
+.wrapper input[type="email"], .wrapper input[type="password"] {
+    font-size: 2.3rem;
+}
+
+.forgot-link {
+    font-size: 2rem !important;
+    margin-top: 1rem !important;
+    position: relative;
+    left: 69%;
+    cursor: pointer;
+}
+
+.wrapper button {
+    height: 5rem;
+    background-color: blueviolet;
+    border-radius: 1.8rem;
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 100;
+}
